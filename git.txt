@@ -1,0 +1,63 @@
+Step 1: Create a GitHub Account
+Open your web browser and go to GitHub.
+Click on the "Sign up" button and follow the prompts to create your account.
+Verify your email address if prompted.
+Step 2: Install Git
+Download Git for Windows from the official Git website.
+Run the installer and follow the prompts to install Git. Make sure to select the appropriate options according to your preferences.
+Step 3: Configure Git
+Open the command prompt (search for "cmd" and press Enter).
+Set your username by typing:
+arduino
+Copy code
+git config --global user.name "Your GitHub Username"
+Set your email address by typing:
+arduino
+Copy code
+git config --global user.email "your_email@example.com"
+Replace "Your GitHub Username" with your GitHub username and "your_email@example.com" with the email associated with your GitHub account.
+Step 4: Create a New Repository on GitHub
+Log in to your GitHub account.
+Click on the "+" icon in the top-right corner and select "New repository".
+Give your repository a name, a description (optional), and choose whether it should be public or private.
+Click on the "Create repository" button.
+Step 5: Initialize Git Repository Locally
+Navigate to the directory where you want to store your project using the command prompt.
+Initialize a new Git repository by typing:
+csharp
+Copy code
+git init
+Step 6: Add and Commit Your Files
+Add your files to the repository by typing:
+csharp
+Copy code
+git add .
+This command adds all files in the current directory to the staging area.
+Commit the changes by typing:
+sql
+Copy code
+git commit -m "Initial commit"
+Replace "Initial commit" with a brief description of your changes.
+Step 7: Link Local Repository to GitHub Repository
+Copy the URL of your GitHub repository.
+Link your local repository to the GitHub repository by typing:
+csharp
+Copy code
+git remote add origin <repository_url>
+Replace <repository_url> with the URL of your GitHub repository.
+Step 8: Push Your Code to GitHub
+Push your code to GitHub by typing:
+perl
+Copy code
+git push -u origin master
+This command pushes your committed changes to the master branch of your GitHub repository.
+Step 9: Verify on GitHub
+Refresh your GitHub repository page in your web browser.
+You should see your files and folders from your local repository now on GitHub.
+That's it! You've successfully created a version control account on GitHub, created a repository, and pushed your code using Git commands.
+
+
+
+
+
+
